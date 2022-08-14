@@ -1,0 +1,59 @@
+.header {
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: row;
+  padding: 25px 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header div {
+  flex-basis: 65%;
+  font-size: 30px;
+  color: rgb(33, 140, 56);
+}
+
+.navSpan {
+  color: black;
+}
+
+.nav ul {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav ul li {
+  margin: 10px 15px;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.Link {
+  color: rgb(33, 140, 56);
+  text-decoration: none;
+}
+
+.Link:hover {
+  color: #13520f;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .nav ul {
+    flex-flow: column;
+  }
+
+  .nav ul li {
+    margin: 10px 2px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+}

@@ -1,0 +1,61 @@
+.form {
+  text-align: left;
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.control label {
+  margin-bottom: 5px;
+}
+
+.control input {
+  height: 30px;
+  font-size: 18px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.control textarea {
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.button {
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.button button {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border: 1px solid #0e3a1e;
+  background-color: #19763b;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: rgba(255, 255, 255, 0.492);
+  color: #0e3a1e;
+}
+
+@media screen and (max-width: 700px) {
+  .form {
+    width: 100%;
+  }
+}
